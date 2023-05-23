@@ -1,0 +1,91 @@
+@media screen and (max-width:950px){
+    .tarjetas-serv{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 600px 600px;
+
+        .serv-proyectos{
+            width: 100%;
+        }
+
+        .serv-direccion{
+            width: 100%;
+        }
+        
+        .serv-factibilidades{
+            width: 100%;
+        }
+
+        .serv-calc-estruc{
+            width: 100%;
+        }
+    }
+
+}
+
+@media screen and (max-width:810px){
+
+    header nav h1{
+        font-size: 40px;
+    }
+
+    .tarjetas-serv h3{
+        font-size: 28px;
+    }
+
+/*SERVICIOS*/
+
+    .mb-3{
+        margin: 10px;
+}
+
+/*TODO*/
+
+    .titulo-footer{
+        font-size: 30px;
+    }
+    
+    .footer h3{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:650px){
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        height: 10%;
+        .title{
+            font-size: 25px;
+            margin: 0px;
+            padding: 0%;
+        }
+        .navegador li a{
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+
+
+    .tarjetas-serv{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 600px  600px 600px 600px;
+    }
+
+    .boton-servicios a{
+        font-size: 20px;
+    }
+
+    .quienes-somos{
+        display: flex;
+        align-items: center;
+        flex-direction: column ;
+    }
+
+    .card{
+        width: 100%;
+    }
+}

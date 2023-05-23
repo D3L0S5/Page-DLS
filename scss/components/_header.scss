@@ -1,0 +1,31 @@
+header{
+    nav{    
+        list-style: none;
+        background-color: black;
+        height: 110px;
+        width: 500%;
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+        .navegador{
+            display: flex;
+            justify-content: space-around;
+            margin: 15px;
+            flex-wrap: wrap;
+            li{
+                a{
+                    display: inline-block;
+                    color: white;
+                    font-size: 30px;
+                    text-decoration: none;
+                }
+                a:active{
+                    background-color: rgba(220, 20, 60, 0.425);
+                    transition: 1/2s;
+                }
+            }
+        }
+    }
+}

@@ -25,11 +25,21 @@ header nav h1{
     flex-wrap: wrap;
 }
 
+.navegador li{
+    text-decoration: none;
+}
+
 .navegador li a{
     display: inline-block;
     color: white;
     font-size: 30px;
-    text-decoration: none;
+    text-decoration:none
+}
+
+/*ANIMACION*/
+header nav .navegador li a:active {
+    background-color: rgba(220, 20, 60, 0.425);
+    transition: 1/2s;
 }
 
 /*----------MAIN-----------*/
@@ -43,10 +53,10 @@ main{
     background-color:azure;
 }
 
-main h2{
-    font-size: 30px;
+.titulo-main{
+    font-size: 50px;
     text-align: center;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .tarjetas-serv{
@@ -69,6 +79,8 @@ main h2{
     font-size: 30px;
     border: 3px black solid;
     border-radius: 5px;
+    margin: 5px;
+    text-align: center;
 }
 
 .serv-proyectos img{
@@ -79,7 +91,7 @@ main h2{
 
 .serv-proyectos p{
     font-size: 20px;
-
+    margin: 5px;
 }
 
 .serv-direccion{
@@ -97,7 +109,7 @@ main h2{
     font-size: 30px;
     border: 3px black solid;
     border-radius: 5px;
-    
+    margin: 5px;
 }
 
 .serv-direccion img{
@@ -108,7 +120,7 @@ main h2{
 
 .serv-direccion p{
     font-size: 20px;
-
+    margin: 5px;
 }
 
 .serv-factibilidades{
@@ -126,7 +138,7 @@ main h2{
     font-size: 30px;
     border: 3px black solid;
     border-radius: 5px;
-    
+    margin: 5px;
 }
 
 .serv-factibilidades img{
@@ -137,7 +149,7 @@ main h2{
 
 .serv-factibilidades p{
     font-size: 20px;
-
+    margin: 5px;
 }
 
 .serv-calc-estruc{
@@ -155,7 +167,7 @@ main h2{
     font-size: 30px;
     border: 3px black solid;
     border-radius: 5px;
-    
+    margin: 5px;
 }
 
 .serv-calc-estruc img{
@@ -166,7 +178,7 @@ main h2{
 
 .serv-calc-estruc p{
     font-size: 20px;
-
+    margin: 5px;
 }
 
 .boton-servicios {
@@ -188,21 +200,70 @@ main h2{
     border-radius: 2px;
 }
 
-.card{
-    width: 30%;
+/*ANIMACION*/
+.boton-servicios a:hover{
+    background-color:rgba(220, 20, 60, 0.425);
+    font-size: 50px;
+    margin: 10px;
+    transition: 2s;
 }
+
+.card{
+    width: 100%;
+}
+
+.titulo-quienes-somos{
+
+font-size: 50px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 20px;
+padding: 5px
+}   
 
 /*SERVICIOS*/
 
-.proyects{
-    background-color: aliceblue;
+.card-title{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: goldenrod;      
 }
+
+    /*ANIMACION*/
+.card-title {
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 1s;
+    animation-iteration-count:initial;
+
+}
+
+
+@keyframes slidein{
+from{
+    margin-left: 100%;
+    width: 300%;
+}
+to{
+    margin-left: 0;
+    width: 100%;
+}
+}
+
 
 .quienes-somos{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
+.comentarios{
+    margin: 0px;
+}
+
 
 .lineas-form{
     display: flex;
@@ -284,7 +345,7 @@ border-radius: 2px;
 
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:810px){
 
     header nav h1{
         font-size: 40px;
@@ -293,6 +354,11 @@ border-radius: 2px;
     .tarjetas-serv h3{
         font-size: 28px;
     }
+
+    .mb-3{
+        margin: 10px;
+}
+
 
     .titulo-footer{
         font-size: 30px;
@@ -303,7 +369,7 @@ border-radius: 2px;
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
 
     .title{
         font-size: 25px;

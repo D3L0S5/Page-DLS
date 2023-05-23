@@ -1,0 +1,281 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+header nav {
+  list-style: none;
+  background-color: black;
+  height: 110px;
+  width: 500%; }
+  header nav h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px; }
+  header nav .navegador {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    flex-wrap: wrap; }
+    header nav .navegador li a {
+      display: inline-block;
+      color: white;
+      font-size: 30px;
+      text-decoration: none; }
+    header nav .navegador li a:active {
+      background-color: rgba(220, 20, 60, 0.425);
+      transition: 1/2s; }
+
+main {
+  background-color: azure;
+  /*SERVICIOS Y CONSTRUCTORA*/ }
+  main .proyects {
+    background-color: aliceblue; }
+  main div .d-block {
+    height: 800px; }
+  main .titulo-main {
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  main .tarjetas-serv {
+    display: flex; }
+    main .tarjetas-serv .serv-proyectos {
+      border: 5px black solid;
+      height: 600px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin: 5px; }
+      main .tarjetas-serv .serv-proyectos h3 {
+        font-size: 30px;
+        border: 3px black solid;
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center; }
+      main .tarjetas-serv .serv-proyectos img {
+        width: 100%;
+        height: 200px;
+        margin: 15px; }
+      main .tarjetas-serv .serv-proyectos p {
+        font-size: 20px;
+        margin: 5px; }
+    main .tarjetas-serv .serv-direccion {
+      border: 5px black solid;
+      height: 600px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin: 5px; }
+      main .tarjetas-serv .serv-direccion h3 {
+        font-size: 30px;
+        border: 3px black solid;
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center; }
+      main .tarjetas-serv .serv-direccion img {
+        width: 100%;
+        height: 200px;
+        margin: 15px; }
+      main .tarjetas-serv .serv-direccion p {
+        font-size: 20px;
+        margin: 5px; }
+    main .tarjetas-serv .serv-factibilidades {
+      border: 5px black solid;
+      height: 600px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin: 5px; }
+      main .tarjetas-serv .serv-factibilidades h3 {
+        font-size: 30px;
+        border: 3px black solid;
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center; }
+      main .tarjetas-serv .serv-factibilidades img {
+        width: 100%;
+        height: 200px;
+        margin: 15px; }
+      main .tarjetas-serv .serv-factibilidades p {
+        font-size: 20px;
+        margin: 5px; }
+    main .tarjetas-serv .serv-calc-estruc {
+      border: 5px black solid;
+      height: 600px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin: 5px; }
+      main .tarjetas-serv .serv-calc-estruc h3 {
+        font-size: 30px;
+        border: 3px black solid;
+        border-radius: 5px;
+        margin: 5px; }
+      main .tarjetas-serv .serv-calc-estruc img {
+        width: 100%;
+        height: 200px;
+        margin: 15px; }
+      main .tarjetas-serv .serv-calc-estruc p {
+        font-size: 20px;
+        margin: 5px; }
+  main .boton-servicios {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: 10px; }
+    main .boton-servicios a {
+      list-style: none;
+      font-style: normal;
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 40px;
+      margin: 5px;
+      color: black;
+      border: 5px solid black;
+      border-radius: 2px; }
+  main .boton-servicios a:hover {
+    background-color: rgba(220, 20, 60, 0.425);
+    font-size: 50px;
+    margin: 10px;
+    transition: 2s; }
+  main .titulo-quienes-somos {
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 5px; }
+  main .quienes-somos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    main .quienes-somos .card {
+      width: 30%; }
+  main .lineas-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    main .lineas-form .comentarios {
+      margin: 0px; }
+  main .card-title {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: goldenrod;
+    /*ANIMACION*/
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 1s;
+    animation-iteration-count: initial; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0;
+    width: 100%; } }
+
+footer nav .titulo-footer {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 0%;
+  text-align: center;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+  text-align: center; }
+  footer nav .titulo-footer .footer {
+    text-decoration: none;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: 200px 100px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none; }
+    footer nav .titulo-footer .footer .fb h3 {
+      font-size: 20px; }
+    footer nav .titulo-footer .footer .fb img {
+      width: 80px;
+      height: 80px; }
+    footer nav .titulo-footer .footer .ig h3 {
+      font-size: 20px; }
+    footer nav .titulo-footer .footer .ig img {
+      width: 80px;
+      height: 80px; }
+    footer nav .titulo-footer .footer .wapp h3 {
+      font-size: 20px; }
+    footer nav .titulo-footer .footer .wapp img {
+      width: 80px;
+      height: 80px; }
+
+@media screen and (max-width: 950px) {
+  .tarjetas-serv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px; }
+    .tarjetas-serv .serv-proyectos {
+      width: 100%; }
+    .tarjetas-serv .serv-direccion {
+      width: 100%; }
+    .tarjetas-serv .serv-factibilidades {
+      width: 100%; }
+    .tarjetas-serv .serv-calc-estruc {
+      width: 100%; } }
+
+@media screen and (max-width: 810px) {
+  header nav h1 {
+    font-size: 40px; }
+  .tarjetas-serv h3 {
+    font-size: 28px; }
+  /*SERVICIOS*/
+  .mb-3 {
+    margin: 10px; }
+  /*TODO*/
+  .titulo-footer {
+    font-size: 30px; }
+  .footer h3 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 650px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    height: 10%; }
+    header nav .title {
+      font-size: 25px;
+      margin: 0px;
+      padding: 0%; }
+    header nav .navegador li a {
+      font-size: 15px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+  .tarjetas-serv {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 600px  600px 600px 600px; }
+  .boton-servicios a {
+    font-size: 20px; }
+  .quienes-somos {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .card {
+    width: 100%; } }
