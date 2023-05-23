@@ -5,8 +5,7 @@
 header nav {
   list-style: none;
   background-color: black;
-  height: 110px;
-  width: 500%; }
+  height: 110px; }
   header nav h1 {
     color: white;
     text-align: center;
@@ -198,33 +197,31 @@ footer nav .titulo-footer {
   color: white;
   background-color: black;
   text-align: center; }
-  footer nav .titulo-footer .footer {
-    text-decoration: none;
-    display: grid;
-    grid-template-rows: repeat(3, 100px);
-    grid-template-columns: 200px 100px;
-    color: white;
-    background-color: black;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none; }
-    footer nav .titulo-footer .footer .fb h3 {
-      font-size: 20px; }
-    footer nav .titulo-footer .footer .fb img {
-      width: 80px;
-      height: 80px; }
-    footer nav .titulo-footer .footer .ig h3 {
-      font-size: 20px; }
-    footer nav .titulo-footer .footer .ig img {
-      width: 80px;
-      height: 80px; }
-    footer nav .titulo-footer .footer .wapp h3 {
-      font-size: 20px; }
-    footer nav .titulo-footer .footer .wapp img {
-      width: 80px;
-      height: 80px; }
+
+footer nav .footer {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+  background-color: black;
+  padding: 5px; }
+  footer nav .footer .fb h3 {
+    font-size: 20px; }
+  footer nav .footer .fb img {
+    width: 80px;
+    height: 80px; }
+  footer nav .footer .ig h3 {
+    font-size: 20px; }
+  footer nav .footer .ig img {
+    width: 80px;
+    height: 80px; }
+  footer nav .footer .wapp h3 {
+    font-size: 20px; }
+  footer nav .footer .wapp img {
+    width: 80px;
+    height: 80px; }
 
 @media screen and (max-width: 950px) {
   .tarjetas-serv {

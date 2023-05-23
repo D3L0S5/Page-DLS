@@ -13,18 +13,17 @@ footer{
             color: white;
             background-color: black;
             text-align: center;
-            .footer{
+        }
+        .footer{
                 text-decoration: none;
-                display: grid;
-                grid-template-rows: repeat(3,100px) ;
-                grid-template-columns: 200px 100px;
-                color: white;
-                background-color: black;
-                padding: 5px;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
                 list-style: none;
+                color: white;
+                background-color: black;
+                padding: 5px;
+
                 .fb{
                     h3{
                         font-size: 20px
@@ -52,8 +51,6 @@ footer{
                         height: 80px;
                     }
                 }
-            }
-
         }
     }
 }
