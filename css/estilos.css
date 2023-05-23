@@ -224,31 +224,33 @@ footer nav .footer {
     height: 80px; }
 
 @media screen and (max-width: 950px) {
-  .tarjetas-serv {
+  main .tarjetas-serv {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 600px 600px; }
-    .tarjetas-serv .serv-proyectos {
-      width: 100%; }
-    .tarjetas-serv .serv-direccion {
-      width: 100%; }
-    .tarjetas-serv .serv-factibilidades {
-      width: 100%; }
-    .tarjetas-serv .serv-calc-estruc {
-      width: 100%; } }
+    grid-template-rows: 700px 700px; }
+    main .tarjetas-serv .serv-proyectos {
+      width: 100%;
+      height: 700px; }
+    main .tarjetas-serv .serv-direccion {
+      width: 100%;
+      height: 700px; }
+    main .tarjetas-serv .serv-factibilidades {
+      width: 100%;
+      height: 700px; }
+    main .tarjetas-serv .serv-calc-estruc {
+      width: 100%;
+      height: 700px; } }
 
 @media screen and (max-width: 810px) {
   header nav h1 {
     font-size: 40px; }
-  .tarjetas-serv h3 {
+  main .tarjetas-serv h3 {
     font-size: 28px; }
-  /*SERVICIOS*/
   .mb-3 {
-    margin: 10px; }
-  /*TODO*/
-  .titulo-footer {
+    margin: 5px; }
+  footer nav h2 {
     font-size: 30px; }
-  .footer h3 {
+  footer nav div ul h3 {
     font-size: 15px; } }
 
 @media screen and (max-width: 650px) {
@@ -264,15 +266,23 @@ footer nav .footer {
       font-size: 15px;
       margin-top: 0px;
       margin-bottom: 0px; }
-  .tarjetas-serv {
+  main .tarjetas-serv {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 600px  600px 600px 600px; }
-  .boton-servicios a {
-    font-size: 20px; }
-  .quienes-somos {
+    grid-template-rows: 700px  700px 700px 700px; }
+  main .boton-servicios a {
+    font-size: 30px; }
+  main .quienes-somos {
     display: flex;
     align-items: center;
     flex-direction: column; }
-  .card {
-    width: 100%; } }
+    main .quienes-somos .card {
+      width: 100%; }
+  footer nav .titulo-footer {
+    font-size: 30px; }
+  footer nav div .footer .fb h3 {
+    font-size: 15px; }
+  footer nav div .footer .ig h3 {
+    font-size: 15px; }
+  footer nav div .footer .wapp h3 {
+    font-size: 15px; } }
