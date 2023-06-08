@@ -185,7 +185,26 @@ main{
         animation-delay: 1s;
         animation-iteration-count:initial;
     }
-}
+
+    /*GALERIA*/
+    .galeria{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 800px 500px 800px 500px 500px 800px 500px 500px ;
+        gap: 15px;
+                        .photo{
+                    border: 5px solid black;
+                    border-radius: 5px;
+                    margin: 10 px;
+                    width: 100%;
+                    height: 100%;
+                }
+                .doble{
+                    grid-column: span 2;
+                }
+        }
+   
+        }
 
 @keyframes slidein{
     from{
