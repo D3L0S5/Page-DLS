@@ -1,0 +1,413 @@
+/*----------ALL-----------*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*----------HEADER-----------*/
+
+header nav{
+    list-style: none;
+    background-color: black;
+    height: 110px;
+}
+
+header nav h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.navegador li{
+    text-decoration: none;
+}
+
+.navegador li a{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    text-decoration:none
+}
+
+/*ANIMACION*/
+header nav .navegador li a:active {
+    background-color: rgba(220, 20, 60, 0.425);
+    transition: 1/2s;
+}
+
+/*----------MAIN-----------*/
+
+.d-block{
+ 
+    height: 800px;
+}
+
+main{
+    background-color:azure;
+}
+
+.titulo-main{
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tarjetas-serv{
+    display: flex;
+    
+}
+
+.serv-proyectos{
+    border: 5px black solid;
+    height: 600px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.serv-proyectos h3{
+    font-size: 30px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.serv-proyectos img{
+    width: 100%;
+    height: 200px;
+    margin: 15px;
+}
+
+.serv-proyectos p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.serv-direccion{
+    border: 5px black solid;
+    height: 600px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.serv-direccion h3{
+    font-size: 30px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.serv-direccion img{
+    width: 100%;
+    height: 200px;
+    margin: 15px;
+}
+
+.serv-direccion p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.serv-factibilidades{
+    border: 5px black solid;
+    height: 600px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.serv-factibilidades h3{
+    font-size: 30px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.serv-factibilidades img{
+    width: 100%;
+    height: 200px;
+    margin: 15px;
+}
+
+.serv-factibilidades p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.serv-calc-estruc{
+    border: 5px black solid;
+    height: 600px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.serv-calc-estruc h3{
+    font-size: 30px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.serv-calc-estruc img{
+    width: 100%;
+    height: 200px;
+    margin: 15px;
+}
+
+.serv-calc-estruc p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.boton-servicios {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+}
+.boton-servicios a{
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 5px;
+    color: black;
+    border: 5px solid black;
+    border-radius: 2px;
+}
+
+/*ANIMACION*/
+.boton-servicios a:hover{
+    background-color:rgba(220, 20, 60, 0.425);
+    font-size: 50px;
+    margin: 10px;
+    transition: 2s;
+}
+
+.card{
+    width: 100%;
+}
+
+.titulo-quienes-somos{
+
+font-size: 50px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 20px;
+padding: 5px
+}   
+
+/*SERVICIOS*/
+
+.card-title{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: goldenrod;      
+}
+
+    /*ANIMACION*/
+.card-title {
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 1s;
+    animation-iteration-count:initial;
+
+}
+
+
+@keyframes slidein{
+from{
+    margin-left: 100%;
+    width: 300%;
+}
+to{
+    margin-left: 0;
+    width: 100%;
+}
+}
+
+
+.quienes-somos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.comentarios{
+    margin: 0px;
+}
+
+
+.lineas-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*----------FOOTER-----------*/
+
+
+.titulo-footer{
+margin-top: 15px;
+margin-bottom: 0px;
+padding: 0%;
+text-align: center;
+font-size: 50px;
+background-color: black;
+color: white;
+border-radius: 2px;
+}
+
+.footer{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.footer ul div h3{
+    font-size: 20px;
+}
+.footer div img{
+    width: 80px;
+    height: 80px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.titulo-footer h2{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width:950px){
+    .tarjetas-serv{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 600px 600px;
+    }
+
+    .serv-proyectos{
+        width: 100%;
+    }
+
+    .serv-direccion{
+        width: 100%;
+    }
+    
+    .serv-factibilidades{
+        width: 100%;
+    }
+
+    .serv-calc-estruc{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:810px){
+
+    header nav h1{
+        font-size: 40px;
+    }
+
+    .tarjetas-serv h3{
+        font-size: 28px;
+    }
+
+    .mb-3{
+        margin: 10px;
+}
+
+
+    .titulo-footer{
+        font-size: 30px;
+    }
+    
+    .footer h3{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:650px){
+
+    .title{
+        font-size: 25px;
+        margin: 0px;
+        padding: 0%;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        height: 10%;
+    }
+
+    .navegador li a{
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .tarjetas-serv{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 600px  600px 600px 600px;
+    }
+
+    .boton-servicios a{
+        font-size: 20px;
+    }
+
+    .quienes-somos{
+        display: flex;
+        align-items: center;
+        flex-direction: column ;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
